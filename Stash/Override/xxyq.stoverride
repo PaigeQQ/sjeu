@@ -6,8 +6,7 @@ name: xiaoxiaoyouqu
 desc: 小小优趣解锁会员
 http:
   mitm:
-    - "fastapi.ukids.cn"
-    - "prod.ukids.cn"
+    - "*.ukids.cn"
   script:
     - match: ^https?:\/\/(prod|fastapi)\.ukids\.cn\/(uch5\/getUser|coreapp\/classOqd\/course\/detail)
       name: xiaoxiaoyouqu1
