@@ -7,8 +7,9 @@ desc: 小小优趣解锁会员
 http:
   mitm:
     - "fastapi.ukids.cn"
+    - "prod.ukids.cn"
   script:
-    - match: ^https?:\/\/fastapi\.ukids\.cn\/uch5\/getUser
+    - match: ^https?:\/\/(prod|fastapi)\.ukids\.cn\/(uch5\/getUser|coreapp\/classOqd\/course\/detail)
       name: xiaoxiaoyouqu1
       type: response
       require-body: true
