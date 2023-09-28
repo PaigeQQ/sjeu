@@ -13,7 +13,19 @@ http:
       type: response
       require-body: true
       timeout: 10
+
+  script:
+    - match: ^https?:\/\/fastapi\.ukids\.cn\/coreapp\/classOqd\/course\/detail
+      name: xiaoxiaoyouqu2
+      type: response
+      require-body: true
+      timeout: 10
+
 script-providers:
   xiaoxiaoyouqu1:
     url: https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/xiaoxiaoyouqu/Script/xxyq.js
+    interval: 86400
+
+  xiaoxiaoyouqu2:
+    url: https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/xiaoxiaoyouqu/Script/unlock.js
     interval: 86400
