@@ -12,7 +12,7 @@ http:
       name: xiaoxiaoyouqu1
       type: response
       require-body: true
-      timeout: 10
+      timeout: 30
 
 
 script-providers:
