@@ -14,7 +14,6 @@ http:
       require-body: true
       timeout: 10
 
-  script:
     - match: ^https?:\/\/fastapi\.ukids\.cn\/coreapp\/classOqd\/course\/detail
       name: xiaoxiaoyouqu2
       type: response
