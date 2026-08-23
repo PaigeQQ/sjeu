@@ -70,6 +70,7 @@ const listua = {
   'Language%20Learning': { name: 'premium', id: 'language_sub_lifetime', cm: 'sjb' },  //Wordy (苹果商店ID号:id6670703228)
   'BeetleADB': { name: 'beetle_pro', id: 'beetle_lifetime_pro', cm: 'sjc' },  //甲壳虫ADB
   'adbTools': { name: 'pro_lifetime', id: 'com.jy.adbTools.pro_1', cm: 'sjb' },  //adbTools
+  'Loora': { name: 'Yearly', id: 'yearly_free_ref_10usd_off', cm: 'sja' },  //Loora
 
   // 'PicPure': { name: 'PicPure Pro', id: 'LifetimeAccess2', cm: 'sjc' },  //PicPure-照片清理大师
   // 'VHSCamera': { name: 'pro', id: 'vhscam_pro_lifetime', cm: 'sjc' },  //VHS相机
