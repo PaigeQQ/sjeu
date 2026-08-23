@@ -68,6 +68,8 @@ const listua = {
   'Drops': { name: 'premium', id: 'forever_unlimited_time_discounted_80_int', cm: 'sjb' },  //Drops外语
   'Readle': { name: 'Premium', id: 'com.hello.german.yearly', cm: 'sja' },  //Readle-德语学习 及同作者另外几款语言教育APP	
   'Language%20Learning': { name: 'premium', id: 'language_sub_lifetime', cm: 'sjb' },  //Wordy (苹果商店ID号:id6670703228)
+  'BeetleADB': { name: 'beetle_pro', id: 'beetle_lifetime_pro', cm: 'sjc' },  //甲壳虫ADB
+  'adbTools': { name: 'pro_lifetime', id: 'com.jy.adbTools.pro_1', cm: 'sjb' },  //adbTools
 
   // 'PicPure': { name: 'PicPure Pro', id: 'LifetimeAccess2', cm: 'sjc' },  //PicPure-照片清理大师
   // 'VHSCamera': { name: 'pro', id: 'vhscam_pro_lifetime', cm: 'sjc' },  //VHS相机
