@@ -2,7 +2,7 @@
 /*
 
 [rewrite_local]
-^https:\/\/api\.bookr\.com\.cn\/api\/mobile\/(users\/me|children) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/BookRclass.js
+^https:\/\/api\.bookr\.com\.cn\/api\/mobile\/(users\/me|children) url script-response-body https://raw.githubusercontent.com/PaigeQQ/sjeu/refs/heads/main/BookR.js
 
 [mitm]
 hostname = api.bookr.com.cn
