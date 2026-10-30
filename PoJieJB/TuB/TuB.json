@@ -1,0 +1,14 @@
+{
+	"name": "图标",
+	"description": "图标",
+	"icons": [
+		{
+			"name": "abc",
+			"url": "abc.png"
+		},
+		{
+			"name": "abc",
+			"url": "abc.png"
+		} 
+        	]
+}
